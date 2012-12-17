@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1C455616577723004225AD /* CustomFontIstok.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C455516577723004225AD /* CustomFontIstok.m */; };
+		0C1C455916577EF3004225AD /* IstokWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C1C455816577EF3004225AD /* IstokWeb-Bold.ttf */; };
+		0C1CDDD5165771F20042A61A /* IstokWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C1CDDD4165771F20042A61A /* IstokWeb-Regular.ttf */; };
+		0C1CDDD71657746C0042A61A /* Futura.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 0C1CDDD61657746C0042A61A /* Futura.ttc */; };
+		0C1CDDD91657752B0042A61A /* Zapfino.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C1CDDD81657752B0042A61A /* Zapfino.ttf */; };
+		0C847F05160D40BF005672ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C847F04160D40BF005672ED /* Default-568h@2x.png */; };
+		0CBF40791608447600453CD4 /* AddEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBF40781608447600453CD4 /* AddEventViewController.m */; };
+		0CBF407D1608487F00453CD4 /* newTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBF407C1608487F00453CD4 /* newTask.m */; };
+		0CBF4080160849A600453CD4 /* PlannerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBF407F160849A600453CD4 /* PlannerTextField.m */; };
+		0CEE78B0165795B00028EC23 /* Museo_Slab_500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0CEE78AF165795B00028EC23 /* Museo_Slab_500.otf */; };
 		0CF4204D16012B3700C4D663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF4204C16012B3700C4D663 /* UIKit.framework */; };
 		0CF4204F16012B3700C4D663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF4204E16012B3700C4D663 /* Foundation.framework */; };
-		0CF4205116012B3700C4D663 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF4205016012B3700C4D663 /* CoreGraphics.framework */; };
 		0CF4205716012B3700C4D663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CF4205516012B3700C4D663 /* InfoPlist.strings */; };
 		0CF4205916012B3700C4D663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4205816012B3700C4D663 /* main.m */; };
 		0CF4205D16012B3700C4D663 /* PlannerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CF4205C16012B3700C4D663 /* PlannerAppDelegate.m */; };
@@ -18,10 +27,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C1C455416577722004225AD /* CustomFontIstok.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFontIstok.h; sourceTree = "<group>"; };
+		0C1C455516577723004225AD /* CustomFontIstok.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFontIstok.m; sourceTree = "<group>"; };
+		0C1C455816577EF3004225AD /* IstokWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IstokWeb-Bold.ttf"; sourceTree = "<group>"; };
+		0C1CDDD4165771F20042A61A /* IstokWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IstokWeb-Regular.ttf"; sourceTree = "<group>"; };
+		0C1CDDD61657746C0042A61A /* Futura.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Futura.ttc; sourceTree = "<group>"; };
+		0C1CDDD81657752B0042A61A /* Zapfino.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zapfino.ttf; sourceTree = "<group>"; };
+		0C847F04160D40BF005672ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0CBF40771608447600453CD4 /* AddEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventViewController.h; sourceTree = "<group>"; };
+		0CBF40781608447600453CD4 /* AddEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventViewController.m; sourceTree = "<group>"; };
+		0CBF407B1608487F00453CD4 /* newTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newTask.h; sourceTree = "<group>"; };
+		0CBF407C1608487F00453CD4 /* newTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newTask.m; sourceTree = "<group>"; };
+		0CBF407E160849A600453CD4 /* PlannerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlannerTextField.h; sourceTree = "<group>"; };
+		0CBF407F160849A600453CD4 /* PlannerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlannerTextField.m; sourceTree = "<group>"; };
+		0CEE78AF165795B00028EC23 /* Museo_Slab_500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Museo_Slab_500.otf; sourceTree = "<group>"; };
 		0CF4204816012B3700C4D663 /* Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF4204C16012B3700C4D663 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0CF4204E16012B3700C4D663 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0CF4205016012B3700C4D663 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0CF4205416012B3700C4D663 /* Planner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Planner-Info.plist"; sourceTree = "<group>"; };
 		0CF4205616012B3700C4D663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0CF4205816012B3700C4D663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,7 +62,6 @@
 			files = (
 				0CF4204D16012B3700C4D663 /* UIKit.framework in Frameworks */,
 				0CF4204F16012B3700C4D663 /* Foundation.framework in Frameworks */,
-				0CF4205116012B3700C4D663 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +71,12 @@
 		0CF4203D16012B3700C4D663 = {
 			isa = PBXGroup;
 			children = (
+				0CEE78AF165795B00028EC23 /* Museo_Slab_500.otf */,
+				0C1CDDD81657752B0042A61A /* Zapfino.ttf */,
+				0C1C455816577EF3004225AD /* IstokWeb-Bold.ttf */,
+				0C1CDDD61657746C0042A61A /* Futura.ttc */,
+				0C1CDDD4165771F20042A61A /* IstokWeb-Regular.ttf */,
+				0C847F04160D40BF005672ED /* Default-568h@2x.png */,
 				0CF4205216012B3700C4D663 /* Planner */,
 				0CF4204B16012B3700C4D663 /* Frameworks */,
 				0CF4204916012B3700C4D663 /* Products */,
@@ -69,7 +96,6 @@
 			children = (
 				0CF4204C16012B3700C4D663 /* UIKit.framework */,
 				0CF4204E16012B3700C4D663 /* Foundation.framework */,
-				0CF4205016012B3700C4D663 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -77,11 +103,19 @@
 		0CF4205216012B3700C4D663 /* Planner */ = {
 			isa = PBXGroup;
 			children = (
+				0CF4205E16012B3700C4D663 /* MainStoryboard.storyboard */,
 				0CF4205B16012B3700C4D663 /* PlannerAppDelegate.h */,
 				0CF4205C16012B3700C4D663 /* PlannerAppDelegate.m */,
-				0CF4205E16012B3700C4D663 /* MainStoryboard.storyboard */,
 				0CF4206116012B3700C4D663 /* PlannerViewController.h */,
 				0CF4206216012B3700C4D663 /* PlannerViewController.m */,
+				0C1C455416577722004225AD /* CustomFontIstok.h */,
+				0C1C455516577723004225AD /* CustomFontIstok.m */,
+				0CBF40771608447600453CD4 /* AddEventViewController.h */,
+				0CBF40781608447600453CD4 /* AddEventViewController.m */,
+				0CBF407E160849A600453CD4 /* PlannerTextField.h */,
+				0CBF407F160849A600453CD4 /* PlannerTextField.m */,
+				0CBF407C1608487F00453CD4 /* newTask.m */,
+				0CBF407B1608487F00453CD4 /* newTask.h */,
 				0CF4205316012B3700C4D663 /* Supporting Files */,
 			);
 			path = Planner;
@@ -152,6 +186,12 @@
 			files = (
 				0CF4205716012B3700C4D663 /* InfoPlist.strings in Resources */,
 				0CF4206016012B3700C4D663 /* MainStoryboard.storyboard in Resources */,
+				0C847F05160D40BF005672ED /* Default-568h@2x.png in Resources */,
+				0C1CDDD5165771F20042A61A /* IstokWeb-Regular.ttf in Resources */,
+				0C1CDDD71657746C0042A61A /* Futura.ttc in Resources */,
+				0C1CDDD91657752B0042A61A /* Zapfino.ttf in Resources */,
+				0C1C455916577EF3004225AD /* IstokWeb-Bold.ttf in Resources */,
+				0CEE78B0165795B00028EC23 /* Museo_Slab_500.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +205,10 @@
 				0CF4205916012B3700C4D663 /* main.m in Sources */,
 				0CF4205D16012B3700C4D663 /* PlannerAppDelegate.m in Sources */,
 				0CF4206316012B3700C4D663 /* PlannerViewController.m in Sources */,
+				0CBF40791608447600453CD4 /* AddEventViewController.m in Sources */,
+				0CBF407D1608487F00453CD4 /* newTask.m in Sources */,
+				0CBF4080160849A600453CD4 /* PlannerTextField.m in Sources */,
+				0C1C455616577723004225AD /* CustomFontIstok.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,9 +284,12 @@
 		0CF4206716012B3700C4D663 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Planner/Planner-Prefix.pch";
 				INFOPLIST_FILE = "Planner/Planner-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,9 +298,12 @@
 		0CF4206816012B3700C4D663 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Planner/Planner-Prefix.pch";
 				INFOPLIST_FILE = "Planner/Planner-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,6 +328,7 @@
 				0CF4206816012B3700C4D663 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

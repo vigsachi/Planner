@@ -30,6 +30,16 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Museo_Slab_500.otf</string>
+		<string>Zapfino.ttf</string>
+		<string>IstokWeb-Bold.ttf</string>
+		<string>IstokWeb-Regular.ttf</string>
+		<string>Futura.ttf</string>
+	</array>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
